@@ -1,7 +1,13 @@
 git init //初始化Git仓库
 git add <file> //添加文件
 git commit -m "说明" //上传文件
-
+git status //掌握库的状态
+git diff 文件名//查看文件被修改了什么内容
+git log //查看历史记录
+git reset --hard HEAD^ //回退上一版本
+git reflog //每一次命令
+git reset --hard ID //回退
+git cheakout -- 文件名 //撤销修改
 
 Git is a distributed version control system.
 Git is free software.
