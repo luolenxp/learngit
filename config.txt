@@ -3,6 +3,9 @@ git add <file> //添加文件
 git commit -m "说明" //上传文件
 
 
+Git is a distributed version control system.
+Git is free software.
+
 
 
 
