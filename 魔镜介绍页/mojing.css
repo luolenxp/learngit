@@ -1,0 +1,49 @@
+/* 
+* @Author: Marte
+* @Date:   2017-09-09 19:15:53
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-11 01:08:35
+*/
+
+
+
+body{
+    background-color: #68cdd6;
+    font-size:62.5%;
+}
+.src1{
+    width: 3em;
+    position: absolute;
+    left:1em;
+    top:1em;
+}
+.src2{
+    width:8em;
+}
+.src3{
+    width:5em;
+    float:left;
+   
+}
+.src4{
+    width:5em;
+    float:right;
+   
+}
+
+.div1{  
+    text-align: center;
+    padding:5em 0;
+
+}
+.div2{
+    
+    padding:0 13.5% 10em 13.5%;
+
+}
+p{  
+    line-height: 150%;
+    font-size: 1em;
+    color:#ffffff;
+   
+}
