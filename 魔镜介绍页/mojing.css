@@ -2,13 +2,13 @@
 * @Author: Marte
 * @Date:   2017-09-09 19:15:53
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-09-11 01:08:35
+* @Last Modified time: 2017-09-12 19:57:33
 */
 
 
 
 body{
-    background-color: #68cdd6;
+    
     font-size:62.5%;
 }
 .src1{
@@ -37,7 +37,7 @@ body{
 
 }
 .div2{
-    
+    text-align: center;
     padding:0 13.5% 10em 13.5%;
 
 }
