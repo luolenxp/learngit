@@ -2,11 +2,14 @@
 * @Author: Marte
 * @Date:   2017-09-09 19:15:53
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-09-12 19:57:33
+* @Last Modified time: 2017-09-13 12:15:38
 */
 
 
-
+*{
+    padding:0;
+    margin:0;
+}
 body{
     
     font-size:62.5%;
@@ -41,9 +44,22 @@ body{
     padding:0 13.5% 10em 13.5%;
 
 }
+.div3{
+    text-align: center;
+    padding:0 13.5% 6em 13.5%;
+}
+.div4{
+     text-align: center;
+    padding:0em 13.5% 0em 13.5%;
+}
 p{  
     line-height: 150%;
     font-size: 1em;
     color:#ffffff;
    
+}
+span{
+    
+    font-size: 1em;
+    color:#ffffff;
 }
