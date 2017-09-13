@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-09-11 20:55:16
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-09-12 21:05:37
+* @Last Modified time: 2017-09-13 12:41:24
 */
 *{
     margin:0;
@@ -16,6 +16,7 @@ div{
     min-height: 10vh;
 }
 .header{ 
+    overflow: hidden;
     text-align: center;
     background-color: #5fc0cd;
     height:10vh;
@@ -39,6 +40,7 @@ div{
 
 }
 .footer{
+    overflow: hidden;
     background-color:#5fc0cd ;
      height:10vh;
     width:100%;
@@ -98,10 +100,10 @@ input{
 .message span{
     float:right;
     color:#5fc0cd;
-    font-weight:bold;
     text-decoration: underline;
     margin-right: 3vh;
     margin-top: 2vh;
+    font-size:2.7vh;
 }
 
 ::-webkit-input-placeholder { color:#bababa; }
