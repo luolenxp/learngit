@@ -18,15 +18,15 @@ body{
     background-color: #5fc0cd;
     position:fixed;
     top:0;
-    height:10vh;
+    
 }
 
 .p1{
     color: #fff;
     font-size: 3vh;
     font-family: Microsoft YaHei;
-    padding-top: 2.5vh; 
-    padding-bottom: 2.5vh;
+    padding-top: 3vh; 
+    padding-bottom: 3vh;
     font-weight: 600;
 }
 
@@ -78,7 +78,7 @@ body{
 .content{
     height: 90%;
     overflow-y:scroll;
-    margin-top:10vh;
+    margin-top:9vh;
 }
 
 .centent2{
