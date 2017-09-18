@@ -115,7 +115,10 @@ body{
     font-family: Microsoft YaHei;
     border-bottom: solid 0.05vh #d0d0d0;
     padding-left: 2vh;
-    height: 10vh;
+    height: ;
+    padding-top:4vh;
+    padding-bottom: 4vh;
+
     
 }
 .sidebar_a{
@@ -127,13 +130,17 @@ body{
     font-family: Microsoft YaHei;
     border-bottom: solid 0.05vh #d0d0d0;
     padding-left: 2vh;
-    height: 10vh;
     width: 15vh;
+}
+
+.foothidden{
+    padding-top: 3vh;
 }
 
 /*-----------footer-----*/
 
 .foot{
+
     width: 100%;
     text-align: center;
     position: fixed;
