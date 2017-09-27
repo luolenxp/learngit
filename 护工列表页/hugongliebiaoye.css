@@ -6,7 +6,7 @@
 */
 
 /*  
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 320px) {
         <script type="text/javascript">
             function changeMySpanHtml() {
                 document.getElementById("mySpan").innerHTML = "我是被JS改变后的内容";
@@ -34,7 +34,7 @@
     font-size:5vh;
     margin-top:-2vh;
 }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 320px) {
       .c{
         display:none;
       }
