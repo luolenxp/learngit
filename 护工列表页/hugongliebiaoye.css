@@ -2,42 +2,30 @@
 * @Author: Marte
 * @Date:   2017-09-20 22:53:21
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-09-26 17:32:32
+* @Last Modified time: 2017-09-30 13:44:02
 */
 
-
-
-.ceshi{
-   display:none;
-   padding-top: 2vh; 
-   padding-left:4vh;
-   font-size: 5vh;
-   color:#999999;
-}
-.eee{
-    float:right;
-    margin-right:0vh;
-    margin-top:3.5vh;
-    color: #e63b0e;
-    font-size: 2.5vh;
-
-}
-.fff{
-    float:right;
-    color:#5fc0cd;
-    font-size:5vh;
-    margin-top:-2vh;
-}
-  @media only screen and (max-width: 310px) {
-      .c{
-        display:none;
-      }
-      .ceshi{
-       display:block;
-      }
+/*  
+  @media only screen and (max-width: 320px) {
+        <script type="text/javascript">
+            function changeMySpanHtml() {
+                document.getElementById("mySpan").innerHTML = "我是被JS改变后的内容";
         }
-}
-}
+    }*/
+
+.ceshi2{
+  display: none;
+  float: left;
+  margin-left: -0.8vh;
+  }
+
+@media only screen and (max-width: 299px) {
+
+    .ceshi2{
+                display:block;
+            }
+ }
+
 
 *{
     margin: 0;
@@ -54,6 +42,7 @@ body{
     width: 100%;
     height: 100%;
     font-family:    STHeiti;
+    letter-spacing: -0.5px;
 }
 
 
@@ -214,7 +203,6 @@ height: auto;
 
 .centent{
     overflow-y: scroll;
-    overflow-x: hidden;
     margin-top: 19vh;
     background-color: #fff;
     height: 70%;
@@ -237,9 +225,9 @@ height: auto;
     height:4vh;
     margin-top: 0.7vh;
     font-size:2.5vh;
-    margin-left: 2em;
-
-}
+    padding-left: 5vh;
+    overflow: hidden;
+  }
 
 .d{
     color: #333333;
@@ -254,11 +242,8 @@ height: auto;
     background-position: 0 -4.266vh;
     width: 2.66vh; 
     height: 3vh;
-    left: -1.1em;
-    top: 0.4vh;
-
-
-    
+    left: 1vh;
+    top: 0.5vh;
 
 }
 
@@ -271,24 +256,41 @@ height: auto;
     background-position:  -2.33vh -3.733vh;
     width: 2.33vh; 
     height: 2.8vh;
-    left: -1.1em;
-    top: 0.4vh;
-    
+    left: 1vh;
+    top: 0.5vh;
 
 }
 
 .tip{
     position: absolute;
     color: #e63b0e;
-    right: 9vh;
+    right: 4.5vh;
+    top: 0vh;
+    
+
 }
 
 .tip2{
     position: absolute;
     color: #5fc0cd;
     font-size: 5vh;
-    right: 5vh;
+    right: 0.5vh;
     top: -2vh;
+}
+
+.ceshi{
+  display:block;
+  width:55%;
+  float:left;
+    
+   
+}
+
+.ceshi1{
+  display:block;
+  width:35%;
+  float:left;
+    
 }
 
 
