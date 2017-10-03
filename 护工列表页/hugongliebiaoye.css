@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-09-20 22:53:21
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-09-30 13:44:02
+* @Last Modified time: 2017-10-03 20:18:47
 */
 
 /*  
@@ -13,18 +13,6 @@
         }
     }*/
 
-.ceshi2{
-  display: none;
-  float: left;
-  margin-left: -0.8vh;
-  }
-
-@media only screen and (max-width: 299px) {
-
-    .ceshi2{
-                display:block;
-            }
- }
 
 
 *{
@@ -226,7 +214,8 @@ height: auto;
     margin-top: 0.7vh;
     font-size:2.5vh;
     padding-left: 5vh;
-    overflow: hidden;
+ 
+
   }
 
 .d{
@@ -279,17 +268,21 @@ height: auto;
 }
 
 .ceshi{
-  display:block;
-  width:55%;
+
   float:left;
-    
+  width:51%; 
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+  overflow:hidden;
    
 }
 
 .ceshi1{
-  display:block;
-  width:35%;
   float:left;
+  width:31%; 
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+  overflow:hidden;
     
 }
 
