@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-10-09 00:46:40
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-10-18 02:36:08
+* @Last Modified time: 2017-10-20 02:31:04
 */
 *{
     margin: 0;
@@ -69,6 +69,7 @@ body{
   width: 100%;
   border-top: 0.2vh #8ddaee solid;
   padding-top: 5vh;
+  margin-bottom: 11vh;
 
 }
 
